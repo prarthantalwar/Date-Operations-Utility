@@ -22,10 +22,13 @@ To use the Date Utility program, follow these steps:
 3. Install the required dependencies using the following command:
 pip install pytz
 4. Prepare a file named `holidays.dat` with the holiday calendar in the specified format. For example:<br>
-TIMEZONE,DATE,HOLIDAY<br>
-US/Eastern,20211225,Christmas Day<br>
-Or you can just use the one I made.<br>
-Feel free to add or remove holidays to the list according to the format.
+
+    TIMEZONE,DATE,HOLIDAY<br>
+    US/Eastern,20211225,Christmas Day     
+
+    Or you can just use the one I made.
+    Feel free to add or remove holidays to the list according to the format.
+
 6. Open a terminal or command prompt and navigate to the project directory.
 7. Run the program using the following command:
 python date_convert.py
